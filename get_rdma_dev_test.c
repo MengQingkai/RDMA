@@ -13,7 +13,7 @@ int main()
         fprintf(stderr, "Error, ibv_get_device_list() failed\n");
         exit(1);
     }
-    else{ printf("num_devices: %d\n ",device_list);}
+    else{ printf("num_devices: %d\n ",num_devices);}
 
     for (i = 0; i < num_devices; ++i)
     {
